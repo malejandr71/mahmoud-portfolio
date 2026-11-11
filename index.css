@@ -254,9 +254,78 @@ button {
 }
 
 .brand {
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: -0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-emblem {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s var(--ease-out-expo);
+}
+
+.brand-logo-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.brand-logo-svg .logo-bg {
+  fill: var(--ink-primary);
+  transition: fill 0.3s ease;
+}
+
+[data-theme="dark"] .brand-logo-svg .logo-bg {
+  fill: hsl(146, 18%, 14%);
+}
+
+.brand-logo-svg .logo-border {
+  stroke: var(--accent-citron);
+  stroke-opacity: 0.28;
+}
+
+.brand-logo-svg .logo-tick {
+  stroke: var(--accent-citron);
+  stroke-opacity: 0.55;
+}
+
+.brand-logo-svg .logo-m-secondary {
+  stroke: var(--accent-olive);
+  stroke-opacity: 0.65;
+}
+
+.brand-logo-svg .logo-m-primary {
+  stroke: var(--bg-canvas);
+}
+
+[data-theme="dark"] .brand-logo-svg .logo-m-primary {
+  stroke: var(--ink-primary);
+}
+
+.brand-logo-svg .logo-dot {
+  fill: var(--accent-citron);
+  transition: transform 0.25s var(--ease-out-expo);
+  transform-origin: 49px 42.5px;
+}
+
+.brand:hover .brand-emblem {
+  transform: translateY(-1.5px) rotate(-2deg);
+  box-shadow: var(--shadow-soft);
+}
+
+.brand:hover .brand-logo-svg .logo-dot {
+  transform: scale(1.18);
+}
+
+.brand-wordmark {
   display: inline-flex;
   align-items: baseline;
 }
@@ -1411,6 +1480,16 @@ button {
 @media (max-width: 720px) {
   :root {
     --header-height: 64px;
+  }
+
+  .brand {
+    font-size: 1.15rem;
+    gap: 0.45rem;
+  }
+
+  .brand-emblem {
+    width: 30px;
+    height: 30px;
   }
 
   .brand-meta {

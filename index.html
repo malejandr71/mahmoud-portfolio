@@ -19,6 +19,11 @@
     content="Thoughtful interfaces. Built to work. Portfolio of Mahmoud Magdy — React, TypeScript &amp; user experience."
   />
 
+  <!-- Bespoke Architectural Monogram Favicon & App Icons -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="alternate icon" href="./favicon.svg" />
+  <link rel="apple-touch-icon" href="./favicon.svg" />
+
   <!-- Google Fonts: Instrument Serif, Plus Jakarta Sans, JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,7 +47,30 @@
     <div class="wrap nav-bar">
       <div class="brand-group">
         <a class="brand" href="#top" id="brand-logo" aria-label="Mahmoud Magdy Home">
-          MM<span class="dot-accent">.</span>
+          <span class="brand-emblem" aria-hidden="true">
+            <svg class="brand-logo-svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="60" height="60" rx="15" class="logo-bg" />
+              <rect x="3.5" y="3.5" width="57" height="57" rx="13.5" class="logo-border" stroke-width="1.5" />
+              <path d="M11 15V11H15" class="logo-tick" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M53 15V11H49" class="logo-tick" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M19.5 45V24L29.75 36.2L40 24V45"
+                class="logo-m-secondary"
+                stroke-width="4.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14.5 45V21.5L26.5 35.5L38.5 21.5V45"
+                class="logo-m-primary"
+                stroke-width="4.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <circle cx="49" cy="42.5" r="4.3" class="logo-dot" />
+            </svg>
+          </span>
+          <span class="brand-wordmark">MM<span class="dot-accent">.</span></span>
         </a>
         <div class="brand-meta" aria-label="Location and local time">
           <span>ALEXANDRIA, EG</span>

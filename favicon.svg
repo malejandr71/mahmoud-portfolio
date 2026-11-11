@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="mm-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A261F" />
+      <stop offset="100%" stop-color="#0F1712" />
+    </linearGradient>
+    <linearGradient id="mm-stroke" x1="12" y1="16" x2="52" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F6F4EE" />
+      <stop offset="100%" stop-color="#DCE2D5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Architectural Squircle Container -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#mm-bg)" />
+  <rect x="3" y="3" width="58" height="58" rx="14" stroke="#B8E265" stroke-opacity="0.24" stroke-width="1.5" />
+
+  <!-- Subtle Editorial Corner Ticks -->
+  <path d="M11 15V11H15" stroke="#B8E265" stroke-opacity="0.45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M53 15V11H49" stroke="#B8E265" stroke-opacity="0.45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Primary Architectural 'M' Monogram (Dual-Layer Interlock for MM) -->
+  <!-- Secondary Shadow/Offset M -->
+  <path
+    d="M19 45V24L29.5 36.5L40 24V45"
+    stroke="#789E38"
+    stroke-opacity="0.55"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Foreground Crisp M -->
+  <path
+    d="M14.5 45V21.5L26.5 35.5L38.5 21.5V45"
+    stroke="url(#mm-stroke)"
+    stroke-width="4.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Signature Citron Terminal Dot (MM.) -->
+  <circle cx="49" cy="42.5" r="4.2" fill="#B8E265" />
+</svg>
