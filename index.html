@@ -164,10 +164,10 @@
           </div>
 
           <div class="section-header-right">
-            <span class="mono-label" id="work-count-label">A selection of projects / 01—02</span>
+            <span class="mono-label" id="work-count-label">A selection of projects / 01—05</span>
             <div class="filter-bar" id="work-filter-bar" role="group" aria-label="Filter projects by technical focus">
               <button type="button" class="filter-pill" id="filter-all" data-work-filter="all" aria-pressed="true">
-                All (02)
+                All (05)
               </button>
               <button type="button" class="filter-pill" id="filter-react-ts" data-work-filter="react-ts" aria-pressed="false">
                 React &amp; TS
@@ -176,7 +176,7 @@
                 Form Validation
               </button>
               <button type="button" class="filter-pill" id="filter-testing" data-work-filter="testing" aria-pressed="false">
-                Testing &amp; A11y
+                Platforms &amp; A11y
               </button>
             </div>
           </div>
@@ -247,13 +247,13 @@
               <span class="mono-label">01 / React · TypeScript · Vite</span>
               <h3>Social App</h3>
               <p>
-                A social application project built around React, routing and form validation. An exercise in composing a modern interface and its underlying interactions.
+                A social application project built around React, routing and form validation. It brings together authentication, posts, comments, profiles and an API-backed data flow.
               </p>
 
               <ul class="project-highlights">
                 <li>Client-side routing with protected session guards and nested views</li>
                 <li>Deterministic form validation with instant inline error feedback</li>
-                <li>Modular TypeScript component architecture &amp; optimistic UI updates</li>
+                <li>Modular TypeScript component architecture &amp; API-backed social feed</li>
               </ul>
 
               <div class="project-links-row">
@@ -265,6 +265,15 @@
                   rel="noopener noreferrer"
                 >
                   Explore the repository <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="text-link"
+                  id="social-demo-link"
+                  href="https://social-app-route-one.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live demo <span aria-hidden="true">↗</span>
                 </a>
                 <button
                   type="button"
@@ -283,9 +292,233 @@
             </div>
           </article>
 
-          <!-- Project 02: Little Lemon -->
+          <!-- Project 02: Okaab -->
           <article
             class="project-card project-ochre"
+            id="project-okaab"
+            data-tags="react-ts,testing"
+          >
+            <div class="project-stage">
+              <div class="stage-toolbar">
+                <div class="stage-window-dots">
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-title-pill">OkaabPlatform.tsx — Agency &amp; Learning Suite</span>
+                </div>
+                <span class="status-badge">● TanStack Start · SSR</span>
+              </div>
+
+              <div class="interactive-window">
+                <div class="social-post-header">
+                  <div>
+                    <div class="social-author-name">Okaab Unified Workspace</div>
+                    <div class="social-author-handle">Agency Portal · Admin Console · Learning Hub</div>
+                  </div>
+                  <span class="status-badge">TypeScript Monorepo</span>
+                </div>
+
+                <div class="lemon-grid">
+                  <div class="metric-box">
+                    <span class="metric-val">Agency &amp; Ops</span>
+                    <span class="metric-lbl">Client Delivery Portal</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-val">Learning Hub</span>
+                    <span class="metric-lbl">Interactive Tracks</span>
+                  </div>
+                </div>
+
+                <div class="social-post-body" style="font-family:var(--font-mono); font-size:0.76rem;">
+                  <div>Framework: <strong>React + TanStack Start + TypeScript</strong></div>
+                  <div>Modules: <strong>Public Agency · Admin Dashboard · Academy</strong></div>
+                </div>
+              </div>
+
+              <div class="stage-footer-bar">
+                <span>Full-Stack TypeScript Architecture</span>
+                <span>React · TanStack Start</span>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <span class="mono-label">02 / React · TypeScript · TanStack</span>
+              <h3>Okaab</h3>
+              <p>
+                A web platform bringing together the agency site, administration and a learning experience. Built in a TypeScript repository using React and TanStack Start.
+              </p>
+
+              <ul class="project-highlights">
+                <li>Unified architecture spanning agency showcase, admin workflows, and learning portal</li>
+                <li>End-to-end type safety with React and TanStack Start routing</li>
+                <li>Modular design system built for scalable product delivery</li>
+              </ul>
+
+              <div class="project-links-row">
+                <a
+                  class="text-link"
+                  id="okaab-repo-link"
+                  href="https://github.com/mahmoudmagdyedu/okaab-software-agency"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Explore the repository <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: TaskFlow -->
+          <article
+            class="project-card"
+            id="project-taskflow"
+            data-tags="react-ts,validation"
+          >
+            <div class="project-stage">
+              <div class="stage-toolbar">
+                <div class="stage-window-dots">
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-title-pill">TaskFlow.ts — Kanban State Engine</span>
+                </div>
+                <span class="status-badge">● LocalStorage Synced</span>
+              </div>
+
+              <div class="interactive-window">
+                <div class="social-post-header">
+                  <div>
+                    <div class="social-author-name">TaskFlow Kanban Board</div>
+                    <div class="social-author-handle">Drag-and-drop columns &amp; validated task cards</div>
+                  </div>
+                  <span class="status-badge">Zero Latency</span>
+                </div>
+
+                <div class="lemon-grid">
+                  <div class="metric-box">
+                    <span class="metric-val">In Progress (3)</span>
+                    <span class="metric-lbl">Drag &amp; Drop Ready</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-val">Completed (12)</span>
+                    <span class="metric-lbl">Persisted Locally</span>
+                  </div>
+                </div>
+
+                <div class="social-post-body" style="font-family:var(--font-mono); font-size:0.76rem;">
+                  <div>State: <strong>Deterministic column transitions &amp; schema validation</strong></div>
+                  <div>Persistence: <strong>Automatic browser storage hydration</strong></div>
+                </div>
+              </div>
+
+              <div class="stage-footer-bar">
+                <span>Interactive Drag-and-Drop Workflow</span>
+                <span>TypeScript · Tailwind CSS</span>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <span class="mono-label">03 / TypeScript · Tailwind CSS</span>
+              <h3>TaskFlow</h3>
+              <p>
+                A Kanban board for organizing tasks, with drag-and-drop, form validation and local persistence.
+              </p>
+
+              <ul class="project-highlights">
+                <li>Fluid drag-and-drop task movement across customizable workflow columns</li>
+                <li>Strict task creation form validation with instant user feedback</li>
+                <li>Resilient browser-local persistence preserving board state across sessions</li>
+              </ul>
+
+              <div class="project-links-row">
+                <a
+                  class="text-link"
+                  id="taskflow-repo-link"
+                  href="https://github.com/mahmoudmagdyedu/Task-Board-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Explore the repository <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  class="text-link"
+                  id="taskflow-demo-link"
+                  href="https://task-board-app-rouge.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View live demo <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04: Baassma -->
+          <article
+            class="project-card project-ochre"
+            id="project-baassma"
+            data-tags="testing"
+          >
+            <div class="project-stage">
+              <div class="stage-toolbar">
+                <div class="stage-window-dots">
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-dot"></span>
+                  <span class="stage-title-pill">BaassmaLab.tsx — Interactive STEM Sandbox</span>
+                </div>
+                <span class="status-badge">● RTL Arabic-First UX</span>
+              </div>
+
+              <div class="interactive-window">
+                <div class="social-post-header">
+                  <div>
+                    <div class="social-author-name">بصمة — Baassma Interactive Labs</div>
+                    <div class="social-author-handle">Programming · Networking · Electronics</div>
+                  </div>
+                  <span class="status-badge">Browser Labs</span>
+                </div>
+
+                <div class="lemon-grid">
+                  <div class="metric-box">
+                    <span class="metric-val">Code &amp; Net</span>
+                    <span class="metric-lbl">Live Simulations</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-val">Electronics</span>
+                    <span class="metric-lbl">Interactive Circuits</span>
+                  </div>
+                </div>
+
+                <div class="social-post-body" style="font-family:var(--font-mono); font-size:0.76rem;">
+                  <div>Experience: <strong>Hands-on browser-based labs tailored for Arabic learners</strong></div>
+                </div>
+              </div>
+
+              <div class="stage-footer-bar">
+                <span>Interactive Educational Architecture</span>
+                <span>Arabic UX · Web Labs</span>
+              </div>
+            </div>
+
+            <div class="project-info">
+              <span class="mono-label">04 / Interactive learning · Arabic</span>
+              <h3>Baassma</h3>
+              <p>
+                An Arabic learning platform for hands-on practice in programming, networking and electronics, with interactive labs and browser-based learning experiences.
+              </p>
+
+              <ul class="project-highlights">
+                <li>Hands-on browser-based laboratories for programming, networking, and electronics</li>
+                <li>Thoughtful Arabic-first typography and RTL interface ergonomics</li>
+                <li>Interactive simulations designed for practical, learning-by-doing mastery</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 05: Little Lemon -->
+          <article
+            class="project-card"
             id="project-little-lemon"
             data-tags="react-ts,validation,testing"
           >
@@ -351,7 +584,7 @@
             </div>
 
             <div class="project-info">
-              <span class="mono-label">02 / React · Vite · Testing</span>
+              <span class="mono-label">05 / React · Vite · Testing</span>
               <h3>Little Lemon</h3>
               <p>
                 An AI-assisted learning project exploring an accessible restaurant reservation flow, responsive layouts, form validation and automated tests. Bookings are a browser-local demo.

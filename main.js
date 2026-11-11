@@ -141,7 +141,7 @@
         });
 
         if (countLabel) {
-          countLabel.textContent = `Showing 0${visibleCount} of 02 curated builds`;
+          countLabel.textContent = `Showing 0${visibleCount} of 05 curated builds`;
         }
       });
     });
