@@ -1,0 +1,22 @@
+# Mahmoud Magdy — Front-End & Full Stack Engineer
+
+> Personal engineering portfolio of Mahmoud Magdy, a Full Stack Engineer at Okaab based in Alexandria, Egypt, specializing in React, Next.js, TypeScript, and accessible web architecture.
+
+## Summary
+- **Role**: Full Stack Engineer at Okaab (Since 2026)
+- **Location**: Alexandria, Egypt
+- **Core Stack**: React, Next.js, TypeScript, JavaScript, HTML5, CSS, Node.js, Express, REST APIs
+- **Education & Credentials**:
+  - Meta Front-End Developer Professional Certificate
+  - Bachelor of Laws (LL.B.), Alexandria University
+- **Contact**: mailto:mahmoudmagdy@mail.com
+- **Website**: https://mahmoudmagdy.page
+- **GitHub**: https://github.com/mahmoudmagdyedu
+- **LinkedIn**: https://www.linkedin.com/in/mahmoudmagdy-dev/
+
+## Selected Projects
+- [Social App](https://github.com/mahmoudmagdyedu/Social-App-Route): React, TypeScript, and Vite social application featuring client-side routing, authentication, posts, comments, profiles, and form validation. Live demo: https://social-app-route-one.vercel.app
+- [Okaab](https://github.com/mahmoudmagdyedu/okaab-software-agency): Unified web platform bringing together the agency site, administration, and learning experience using React, TypeScript, and TanStack Start. Website: https://okaab.org
+- [TaskFlow](https://github.com/mahmoudmagdyedu/Task-Board-App): TypeScript and Tailwind CSS Kanban board with drag-and-drop task management, form validation, and local persistence. Live demo: https://taskflow.mahmoudmagdy.page/
+- [Baassma](https://baassma.tech): Arabic interactive learning platform for hands-on practice in programming, networking, and electronics with browser-based labs.
+- [Little Lemon](https://github.com/malejandr71/little-lemon-capstone): Accessible restaurant reservation flow built with React and Vite, featuring responsive layouts, form validation, and automated tests.
